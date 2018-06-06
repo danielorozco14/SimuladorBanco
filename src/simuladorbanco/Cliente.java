@@ -33,6 +33,7 @@ public class Cliente {
       
     
     public Cliente(String nombre, int[] transaccion){
-        
+        setNombre(nombre);
+        setTipoTransaccion(transaccion);
     }
 }

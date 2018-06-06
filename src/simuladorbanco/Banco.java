@@ -14,8 +14,7 @@ public class Banco implements Runnable{
     
 	private Cliente cliente;
 	private Cajero cajero;
-        private Transaccion transaccion;
-	private long initialTime;
+        private long initialTime;
 	
 	public Banco (Cliente cliente, Cajero cajero, long initialTime){
 		this.cajero = cajero;
